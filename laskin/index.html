@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Laskin</title>
+		<meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="js/laskin.js"></script>
+		<script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+	</head>
+	<body>
+		<form>
+			<input type="text" id="calculation" name="calculation" maxlength="30">
+			<div id="calcButtons">
+				<input type="button" value="7" id="seven" name="seven" onclick="makeCalculation('7')">
+				<input type="button" value="8" id="eight" name="eight" onclick="makeCalculation('8')">
+				<input type="button" value="9" id="nine" name="nine" onclick="makeCalculation('9')">
+				<input type="button" value="&divide;" id="divide" name="divide" onclick="makeCalculation('/')">
+				<input type="button" value="4" id="four" name="four" onclick="makeCalculation('4')">
+				<input type="button" value="5" id="five" name="five" onclick="makeCalculation('5')">
+				<input type="button" value="6" id="six" name="six" onclick="makeCalculation('6')">
+				<input type="button" value="&times;" id="times" name="times" onclick="makeCalculation('*')">
+				<input type="button" value="3" id="three" name="three" onclick="makeCalculation('3')">
+				<input type="button" value="2" id="two" name="two" onclick="makeCalculation('2')">
+				<input type="button" value="1" id="one" name="one" onclick="makeCalculation('1')">
+				<input type="button" value="-" id="minus" name="minus" onclick="makeCalculation('-')">
+				<input type="button" value="0" id="zero" name="zero" onclick="makeCalculation('0')">
+				<input type="button" value="," id="comma" name="comma" onclick="makeCalculation('.')">
+				<input type="button" value="=" id="equals" name="equals" onclick="calculationResult()">
+				<input type="button" value="+" id="plus" name="plus" onclick="makeCalculation('+')">
+			</div>
+		</form>
+	</body>
+</html>
